@@ -14,6 +14,7 @@
 
 import streamlit as st
 from streamlit.logger import get_logger
+from deepface import DeepFace
 
 LOGGER = get_logger(__name__)
 
